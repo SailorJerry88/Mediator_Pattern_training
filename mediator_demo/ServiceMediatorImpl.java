@@ -3,10 +3,10 @@ package c_czynnosciowe.mediator_demo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PlaneMediatorImpl implements PlaneMediator{
+public class ServiceMediatorImpl implements ServiceMediator{
     private List<Plane> planes;
 
-    PlaneMediatorImpl(){this.planes = new ArrayList<>(); }
+    ServiceMediatorImpl(){this.planes = new ArrayList<>(); }
 
     @Override
     public void addPlane(Plane plane) {

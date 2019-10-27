@@ -9,7 +9,7 @@ public abstract class Plane {
         this.name1 = name1;
     }
 
-    public abstract void raportFuel(String rpf);
+    public abstract void raportFuel(String rcf);
     public abstract void receiveFuel(String rcf);
 
 }

@@ -19,8 +19,14 @@ public class MediatorMain {
         user3.sendMessage("I'm hungry");
         user4.sendMessage("Landing, Over");
 
-        PlaneMediator fuelControl = new PlaneMediatorImpl();
+        ServiceMediator fuelControl = new ServiceMediatorImpl();
         Plane plane1 = new PlaneImpl(fuelControl,"Plane 1st");
+        Plane plane2 = new PlaneImpl(fuelControl, "Plane 2nd");
+
+        fuelControl.addPlane(plane1);
+        fuelControl.addPlane(plane2);
+
+        plane1.raportFuel("60 galons");
 
 
 
