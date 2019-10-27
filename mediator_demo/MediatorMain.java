@@ -27,6 +27,7 @@ public class MediatorMain {
         fuelControl.addPlane(plane2);
 
         plane1.raportFuel("60 galons");
+        plane2.raportFuel("15 galons");
 
 
 
