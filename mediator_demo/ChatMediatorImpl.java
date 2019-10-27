@@ -6,6 +6,7 @@ import java.util.List;
 public class ChatMediatorImpl implements ChatMediator {
    private List<User> users;
 
+
    ChatMediatorImpl(){
        this.users = new ArrayList<>();
    }

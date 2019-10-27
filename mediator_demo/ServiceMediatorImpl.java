@@ -14,13 +14,14 @@ public class ServiceMediatorImpl implements ServiceMediator{
     }
 
     @Override
-    public void fuelRaport(String fuel, Plane plane) {
+    public void raportFuel(String rcf, Plane plane) {
         for (Plane p : this.planes){
             if (p != planes){
-                p.receiveFuel(fuel);
+                p.receiveFuel(rcf);
             }
         }
     }
+
 
 
 }
